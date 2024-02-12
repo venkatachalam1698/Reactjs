@@ -1,0 +1,54 @@
+.cardscontainer {
+    display: flex;
+    justify-content: flex-start;
+    float: left;
+    margin: 100px auto;
+    /* Align items to the end of the flex container (right side) */
+}
+
+.card {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 20px;
+    /* Add some margin between cards */
+}
+
+.firstcard {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    /* Added margin to separate cards */
+}
+
+.secondcard {
+    border: 1px solid #ccc;
+    width: 30%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 0;
+}
+
+stcard {
+    margin-left: auto;
+    /* Push the first card to the right side */
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}

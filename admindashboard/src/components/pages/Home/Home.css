@@ -1,0 +1,42 @@
+/* Assuming .sidebar, .cardcontainer, and .chart-container are siblings */
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    flex: 0 0 20%;
+    /* Sidebar takes 20% of the container's width */
+}
+
+.cardcontainer,
+.chart-container {
+    flex: 1;
+    /* Take remaining space */
+    display: flex;
+    justify-content: center;
+    /* Horizontally center the content */
+    align-items: center;
+    /* Vertically center the content */
+}
+
+.cardcontainer {
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+}

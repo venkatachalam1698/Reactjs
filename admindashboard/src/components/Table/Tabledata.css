@@ -1,0 +1,18 @@
+/* PaymentHistory.css */
+
+.container {
+    margin: 60px auto;
+    width: 100%;
+    height: auto;
+}
+
+.table-container {
+    margin-top: 80px;
+}
+
+
+.table-container h2 {
+    margin: 70px auto;
+}
+
+/* Additional CSS for the card container */
